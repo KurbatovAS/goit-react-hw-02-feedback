@@ -1,5 +1,15 @@
 @import-normalize; /* bring in normalize.css styles */
 
+:root {
+  --main-color: #ffffff;
+  --accent-color: #ff6b08;
+  --section-bg-color: #222;
+  --toTopButtonShadow: 0px 0px 5px 1px rgba(61, 61, 61, 0.3);
+
+  --time: 250ms;
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,6 +17,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: rgb(24, 24, 24);
 }
 
 code {

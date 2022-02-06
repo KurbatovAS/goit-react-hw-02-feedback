@@ -1,0 +1,21 @@
+.item {
+  margin: 0 auto;
+  max-width: 300px;
+  border-radius: 15px;
+  padding: 10px 20px;
+  font-size: 24px;
+  background: #1b1b1b;
+
+  &:not(:last-of-type) {
+    margin-bottom: 20px;
+  }
+
+  &:nth-child(odd) {
+    background: #1b1a1a;
+  }
+
+  &:hover {
+    background-color: #303030;
+    cursor: pointer;
+  }
+}

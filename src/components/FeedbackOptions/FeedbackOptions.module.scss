@@ -1,0 +1,25 @@
+.box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-transform: capitalize;
+  color: var(--main-color);
+  background-color: transparent;
+  border: 1px solid var(--main-color);
+  border-radius: 15px;
+  box-shadow: var(--toTopButtonShadow);
+
+  transition: all var(--time) var(--timing-function);
+
+  &:hover,
+  &:focus {
+    border: 1px solid var(--accent-color);
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 5px var(--accent-color);
+  }
+}

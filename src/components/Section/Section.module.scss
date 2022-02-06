@@ -1,0 +1,16 @@
+.section {
+  margin: 30px auto;
+  padding: 20px 40px;
+  max-width: 500px;
+  text-align: center;
+  color: var(--main-color);
+  background-color: var(--section-bg-color);
+  box-shadow: 0px 0px 3px 1px var(--accent-color);
+
+  border-radius: 15px;
+}
+
+.heading {
+  margin-bottom: 30px;
+  font-size: 30px;
+}
